@@ -7,4 +7,7 @@ animated-login-master/
 ├── index.html
 ├── style.css
 └── script.js
+### Folder Structure:
+images/
+├──icon.png
 
