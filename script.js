@@ -1,14 +1,11 @@
+const container = document.querySelector('.container');
+const signupButton = document.querySelector('.signup-section header');
+const loginButton = document.querySelector('.login-section header');
 
-// script.js
+loginButton.addEventListener('click', () => {
+    container.classList.add('active');
+});
 
-// Function to open index.html in a new window
-function openIndexPage() {
-    // Specify the path to your index.html file
-    var indexPage = 'path/to/your/index.html';
-
-    // Open index.html in a new browser window
-    window.open(indexPage);
-}
-
-// Call the function to open index.html
-openIndexPage();
+signupButton.addEventListener('click', () => {
+    container.classList.remove('active');
+});
